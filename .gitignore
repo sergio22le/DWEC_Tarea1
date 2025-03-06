@@ -23,5 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# PDF Enunciado tarea
-Tarea1_DWEC05.pdf
+# Carpeta con el enunciado de la tarea
+/enunciado
