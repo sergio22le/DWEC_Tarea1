@@ -9,7 +9,7 @@ const Main = () => {
             <section className="container">
                 <h3>Hoy hay {numeroCumpleaños} cumpleaños</h3>
                 {datosPersonas.map((persona) => (
-                    <TarjetaPersona key={persona.id} {...persona} />
+                    <TarjetaPersona key={persona.id} name={persona.name} age={persona.age} image={persona} />
                 ))}
             </section>
         </main>
